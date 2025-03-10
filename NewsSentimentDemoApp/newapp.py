@@ -196,6 +196,7 @@ if articles:
     
     with col1:
         st.subheader("News Articles")
+        st.markdown(f"""<a href="#sentiment-analysis">See Graphs</a>""",unsafe_allow_html=True)
         
         # Filter options
         sentiment_filter = st.multiselect(
