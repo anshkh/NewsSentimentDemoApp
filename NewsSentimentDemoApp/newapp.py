@@ -153,7 +153,7 @@ def analyze_sentiment(text):
 # Sidebar for settings
 st.sidebar.title(f"News Sentiment Analyzer\nSettings")
 #num_articles = st.sidebar.slider("Number of articles to analyze", 5, 30, 10)
-custom_query = st.sidebar.text_input("Search query", "Manipur news")
+custom_query = st.sidebar.text_input("Search query", "Enter Text")
 #time_period = st.sidebar.selectbox("Time period", ["Past 24 hours", "Past week", "Past month", "Past year"])
 
 # Function to fetch and analyze articles
