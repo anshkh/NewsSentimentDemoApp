@@ -241,6 +241,7 @@ if articles:
     
     with col2:
         st.subheader("Sentiment Analysis")
+        st.markdown(f"""<a href="#news-articles">See Articles</a>""",unsafe_allow_html=True)
         
         # Count sentiments
         sentiment_counts = {"Positive": 0, "Neutral": 0, "Negative": 0}
